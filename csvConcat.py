@@ -33,7 +33,6 @@ List of functions
 
 import glob
 import os
-import time
 import shutil
 
 def slow(str_fout_path, str_dir_path):
