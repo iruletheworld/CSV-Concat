@@ -7,6 +7,8 @@ The "fast" function uses shutil, while the "slow" function is pure Python.
 
 On average, the "fast" function is 2.5 to 5 times faster than the "slow" function.
 
+## Prerequisites
+
 * **Python 3.5+**
 * **glob**
 * **os**
