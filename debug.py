@@ -23,7 +23,7 @@ for i in range(0, 10):
 
     dur_slow += (end - start)
 
-print('Slow merge: ' + str(dur_slow/10.0))
+print('Slow concat: ' + str(dur_slow/10.0))
 
 start   = 0.0
 end     = 0.0
@@ -39,6 +39,6 @@ for i in range(0, 10):
 
     dur_fast += (end - start)
 
-print('Fast merge: ' + str(dur_fast/10.0))
+print('Fast concat: ' + str(dur_fast/10.0))
 
 print('Slow/Fast = ' + str(dur_slow/dur_fast))
